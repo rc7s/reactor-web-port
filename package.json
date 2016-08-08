@@ -1,0 +1,24 @@
+{
+  "name": "reactor",
+  "version": "1.0.0",
+  "description": "a music visualizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rc7s/reactor.git"
+  },
+  "author": "ryan chin & richie messina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rc7s/reactor/issues"
+  },
+  "homepage": "https://github.com/rc7s/reactor#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

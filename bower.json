@@ -1,0 +1,21 @@
+{
+  "name": "reactor",
+  "description": "a music visualizer",
+  "main": "index.js",
+  "authors": [
+    "ryan chin & richie messina"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rc7s/reactor",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "p5.js": "p5js#^0.5.2"
+  }
+}

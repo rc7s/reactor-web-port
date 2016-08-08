@@ -49,7 +49,7 @@ void setup() {
   // load the audio track in data directory into the AudioPlayer 'player'
   // here are some tracks for demonstration purposes
 
-  player = minim.loadFile("playthis.mp3", 1024);
+  player = minim.loadFile("data/playthis.mp3", 1024);
   // FFT object with time domain buffer
   fft = new FFT(player.bufferSize(), player.sampleRate());
 
