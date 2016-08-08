@@ -7,8 +7,9 @@ a vary naice music viz
 3. make sure you have bower, can be installed with `npm install -g bower` (may need to sudo)
 4. run the following
 
-
+Run:
     > npm install
+
     > bower install
 
 ### to develop
