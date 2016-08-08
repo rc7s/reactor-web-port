@@ -8,6 +8,7 @@ a vary naice music viz
 4. run the following
 
 Run:
+
     > npm install
 
     > bower install
