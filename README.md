@@ -1,5 +1,5 @@
-# reactor
-a vary naice music viz
+# reactor: music visuals for soundcloud
+
 
 ### to install
 1. make sure you have Node.js installed and linked to your path
