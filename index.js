@@ -7,10 +7,6 @@ var router = express.Router();
 
 app.use(logger('dev'));
 
-router.get('/', function(req, res){
-    res.sendFile('index.html');
-});
-
 if(app.get('env') === 'development'){
     app.use(express.static(path.join(__dirname)));
     app.use(express.static(path.join(__dirname+'/app')));
