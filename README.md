@@ -12,12 +12,14 @@ Run:
     > npm install
 
     > bower install
+    
+    > npm install express-handlebars
 
 ### to run
 there's a very basic express server inside of index.js
 
 you can run it with the following command
 
-    > nodemon index.js
+    > node index.js
 
 you can access the local server on http://localhost:3333
