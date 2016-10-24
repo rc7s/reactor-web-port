@@ -13,13 +13,11 @@ Run:
 
     > bower install
 
-### to develop
+### to run
 there's a very basic express server inside of index.js
 
 you can run it with the following command
 
-    > npm run dev
+    > nodemon index.js
 
 you can access the local server on http://localhost:3333
-
-when you access that URL, the server will send `index.html` if it exists

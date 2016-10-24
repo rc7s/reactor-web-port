@@ -1,12 +1,23 @@
 var song, canvas, fft, noiseAmp, circleLoc, bassAmp, snareAmp, driftX, randomRotateAmt, kickboxSensitivity, arcLength;
+var url;
+var urlSegments;
+var trackId;
+var trackPath;
 
 function preload() {
-    song = loadSound('data/playthis.mp3');
+    //song loading from url
+    url = getURL();
+    urlSegments = split(url,'/');
+    trackId = urlSegments[3];
+    trackPath = 'data/'+trackId+'.mp3';
+    song = loadSound(trackPath);
 }
 
 function setup() {
     canvas = createCanvas(window.innerWidth, window.innerHeight);
     frameRate(60);
+    console.log('the url is '+url);
+    
 
     // FFT object with time domain buffer
     fft = new p5.FFT();
